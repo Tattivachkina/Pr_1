@@ -1,0 +1,1042 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    /* внешний отступ */
+    margin: 0;
+    /* внутренний отступ */
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.MainScreen {
+    /* background: #ECE7E4 url(image/IMAGE\ \(1\).jpg) right/50% 100% no-repeat; */
+    background: #ECE7E4;
+    padding: 130px 100px 130px 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.main-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.Main_h2 {
+    color: #645C55;
+    font-size: 14px;
+    /* начертание */
+    font-style: normal;
+    /* жирность начертания */
+    font-weight: 400;
+    /* высота строки */
+    line-height: 20px; /* 142.857% */
+    /* расстояние */
+    letter-spacing: 2px;
+    /* регистр */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    /* максимальное значение ширины блока */
+    max-width: 420px;
+    color: #1B1A1A;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70.4px; /* 110% */
+    margin-bottom: 18px;
+    position: relative;
+    z-index: 2;
+}
+
+.MainP {
+    max-width: 510px;
+    color: #403E3B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.button {
+    /* margin-top: 40px; */
+    border-radius: 14px;
+    background: #1B1A1A;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.4px;
+    padding: 11px 20px;
+}
+
+.button_3 {
+    border-radius: 14px;
+    background: #1B1A1A;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.4px;
+    padding: 11px 20px;
+}
+
+.Section_2_h2 {
+    /* центрирование строчных элементов */
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 130px;
+    color: #403E3B;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px; /* 118.75% */
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.container_Section_2 {
+    max-width: 530px;
+    /* центрирование блочных элементов */
+    margin: 0 auto;
+}
+
+.Section_2_paragraph {
+    max-width: 520px;
+    color: #403E3B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team-item{
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 36px;
+    margin-right: 15px;
+}
+
+.Section_2_name {
+    max-width: 145px;
+    color: #1B1A1A;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 152.941% */
+    /* margin-top: 80px; */
+    /* margin-bottom: 10px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.Section_2_role {
+    max-width: 110px;
+    color: #645C55;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 100% */
+    margin-bottom: 30px;
+}
+
+.container_Section_3 {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* border:  2px solid violet;
+    min-height: 100px; */
+    /* margin: 0; */
+    width: 100%;
+}
+
+.subtitle {
+    color: #645C55;
+    text-align: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.title {
+    color: #1B1A1A;
+    text-align: center;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; /* 107.692% */
+
+}
+
+.cards {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.card_1 {
+    /* border: 2px dashed red; */
+    max-width: 370px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card_img {
+    max-width: 117px;
+    margin-bottom: 15px;
+}
+
+.art_title {
+    color: #403E3B;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+    margin-bottom: 10px;
+}
+
+.art_text {
+    color: #645C55;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    padding: 0 42px;
+}
+
+.sec_fluid {
+    min-height: 600px;
+    /* Для полномасштабных фоновых изображений */
+    background: url(image/img_1.jpg) center/cover no-repeat;
+    padding: 0 75px;
+    display: flex;
+    /* главная ось */
+    justify-content: flex-end;
+    /* поперечная ось */
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.sec_fluid_left{
+    margin-top: 100px;
+    min-height: 600px;
+    /* Для полномасштабных фоновых изображений */
+    background: url(image/IMAGE.jpg) center/cover no-repeat;
+    padding: 0 75px;
+    display: flex;
+    /* главная ось */
+    justify-content: flex-start;
+    /* поперечная ось */
+    align-items: center;
+}
+
+.box{
+    max-width: 285px;
+}
+
+.box_title{
+    color: #403E3B;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.box_text{
+    color: #645C55;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_link {
+    margin-right: 32px;
+}
+
+.Featured_projects {
+    padding: 100px;
+    background: #F7F7F7;
+}
+
+.Featured_projects_txtblock {
+    width: 50%; 
+}
+
+.f_title{
+    color: #1B1A1A;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; /* 107.692% */
+    margin-bottom: 14px;
+}
+
+.f_text {
+    color: #645C55;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 125% */
+    margin-bottom: 30px;
+}
+
+.Featured_projects_link{
+    
+}
+
+.fpl{
+    margin-top: 40px;
+    /* margin-bottom: 100px; */
+    color: #1B1A1A;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.4px;
+}
+
+/*  */
+.sec-team{
+    padding: 100px;
+
+}
+
+.flex-team {
+        /* border: 2px solid red; */
+        display: flex;
+
+        /* прижимаем к правой части главную ось */
+        justify-content: space-between;
+
+}
+
+.text-team {
+    /* border: 2px solid rebeccapurple; */
+    /* max-width: 358px; */
+    /* %соотношение */
+    width: 38%; 
+}
+
+.title-team {
+    color: #403E3B;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px; /* 118.75% */
+
+    margin-bottom: 14px;
+}
+.txt-team {
+    color: #645C55;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */ 
+    
+    margin-bottom: 30px;
+}
+.button_2 {
+    /* скругление кнопки */
+    border-radius: 14px;
+    background: #1B1A1A;
+
+    /* стилистика текста в кнопке */
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.4px;
+    
+    padding: 11px 20px;    
+}
+
+.teams {
+    /* border: 2px solid blue; */
+    width: 68%;
+
+    display: flex;
+    /* для переноса картинок на новую строку */
+    flex-wrap: wrap;
+}
+
+.teams-item {
+    /* border: 2px solid #403E3B;    */
+    width: 40%;
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 36px;
+    margin-right: 15px;
+}
+
+.teams-img {
+    margin-right: 30px;
+}
+
+.photo_img {
+    /* width: 100%; */
+    /* min-width: 45px; */
+    max-width: 84px;
+}
+
+.teams-txt {
+
+}
+
+.teams-title {
+    color: #1B1A1A;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 152.941% */   
+}
+.teams-subtitle {
+    color: #645C55;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 100% */   
+}
+
+.sec_low {
+    min-height: 320px;
+    background: #CEC4BC;
+    padding: 0 100px;
+    display: flex;
+    /* главная ось */
+    justify-content: space-between;
+    /* поперечная ось */
+    align-items: center;
+}
+
+.sec_low_flex {
+    /* border: 2px solid #403E3B;  */
+    max-width: 1240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new_box{
+    max-width: 570px;
+}
+
+.new_box_title {
+    color: #645C55;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.new_box_text {
+    color: #1B1A1A;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; /* 105% */
+}
+
+.sec_low_button {
+
+}
+
+.Featured_projects {
+}
+
+.Featured_projects_txtblock {
+}
+.Featured_projects_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Featured_projects_item {
+    min-height: 460px;
+    width: 32%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 46px;
+    flex-direction: column;
+}
+.bg1 {
+    background: url(image/IMG_1.png) center/cover no-repeat;
+}
+.item_txt {
+}
+
+.p_sup{
+    width: 88px;
+    color: #645C55;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.p_sub {
+    color: #403E3B;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 130.435% */
+}
+
+.Featured_projects_item button {
+    max-width: 133px;
+}
+
+.bg2 {
+    background: url(image/IMG_2.png) center/cover no-repeat;
+}
+.bg3 {
+    background: url(image/IMG_3.png) center/cover no-repeat;
+}
+.Featured_projects_link {
+}
+
+.burger {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    display: none;
+}
+
+.burger > img {
+    width: 100%;
+}
+
+.burger_img {
+    /* width: 100%; */
+    /* min-width: 45px; */
+    max-width: 30px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* gap: 3%; */
+    row-gap: 2%;
+    column-gap: 3%;
+}
+
+/* .grid-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.item3 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item4 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.item5 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+} */
+
+.footer {
+    padding: 60px 0;
+}
+
+.footer_flex {
+    min-height: 200px;
+    padding: 0 130px;
+    display: flex;
+    /* выравнивание */
+    justify-content: space-between;
+    /* align-items: flex-end; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer_txt {
+    width: 40%;
+    max-width: 430px;
+}
+
+.footer_logo {
+
+}
+.footer_text {
+    color: #645C55;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+.footer_icon {
+    width: 10%;
+    min-width: 112px;
+}
+
+/* Адаптив */
+@media (max-width: 1100px) {
+    .main-img {
+        display: none;
+    }
+    .f_text {
+        width: 130%;
+    }
+    .txt-team {
+        width: 95%;
+    }
+    .photo_img {
+        /* width: 100%; */
+        max-width: 75px;
+    }
+
+}
+@media (max-width: 950px) {
+    .new_box_text {
+        font-size: 35px;
+        line-height: 32px;
+        max-width: 470px;
+    }
+}
+
+@media (max-width: 850px) {
+    .nav_list {
+        /* Скрываем элемент */
+        display: none;
+    }.burger {
+        display: block;
+    }
+    .photo_img {
+        /* width: 100%; */
+        max-width: 70px;
+    }
+    .new_box_text {
+        font-size: 32px;
+        line-height: 30px;
+        max-width: 420px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Featured_projects_item {
+        width: 49%;
+        margin-bottom: 15px;
+    }
+    .Featured_projects_box {
+        justify-content: space-around;
+    }
+    .box {
+        max-width: 167px;
+    }
+    .new_box {
+        max-width: 450px;
+        /* line-height: 42px; */
+    }
+    .new_box_text {
+        font-size: 27px;
+        line-height: 30px;
+        max-width: 370px;
+    }
+    .sec_fluid_left {
+        justify-content: flex-end;
+    }
+    .teams-item {
+        width: 70%;
+    }
+    .new_box_text{
+        font-size: 30px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width: 710px) {
+    .new_box_text {
+        font-size: 24px;
+        line-height: 28px;
+        max-width: 250px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .flex-team {
+        justify-content: center;
+    }
+    .new_box_text {
+        font-size: 20px;
+        line-height: 22px;
+        max-width: 240px;
+    }
+}
+
+@media (max-width: 580px) {
+    .MainScreen{
+        padding: 100px 70px;
+    }
+    .MainScreen h1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .sec_fluid {
+        padding: 0 19px;
+    }
+    .sec_fluid_left {
+        justify-content: flex-end;
+        padding: 0 9px;
+        min-height: 300px;
+    }
+    /* .box_title {
+        color: #000000;
+    } */
+    .f_title {
+        font-size: 29px;
+        line-height: 32px;
+    }
+    .f_text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .Featured_projects_item {
+        min-height: 265px;
+    }
+    .p_sub {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    /* .button {
+        font-size: 16px;
+        padding: 3px 10px;
+
+    } */
+    .fpl {
+        font-size: 13px;
+    }
+    .title-team{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .txt-team {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .teams {
+        /* width: 70%; */
+        max-width: 130px;
+    }
+    .teams-item{
+        margin-bottom: 9px;
+    }
+    .teams-title {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .teams-subtitle{
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .button_2{
+        padding: 12px 20px;
+        line-height: 14px;
+    }
+    .sec_low{
+        padding: 0 55px;
+    }
+    .new_box_title{
+        font-size: 12px;
+    }
+    .new_box_text{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .button_3 {
+        padding: 3px 20px;
+        line-height: 14px;
+        font-size: 12px;
+    }
+    .footer_flex {
+        padding: 0 55px;
+    }
+    .footer_text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    /* .flex-team {
+        justify-content: flex-start;
+    } */
+    .photo_img {
+        /* width: 100%; */
+        max-width: 50px;
+    }
+}
+
+
+@media (max-width: 540px) {
+    .Featured_projects_item {
+        width: 80%;
+        height: 360px;
+    }
+    .Featured_projects_box {
+        justify-content: space-around;
+    }
+    .container_Section_2 {
+        padding: 0 2%;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .button {
+        padding: 12px 20px;
+        line-height: 18px;
+    }
+    .flex-team {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 500px) {
+    .logo_img {
+        max-width: 180px;
+    }
+    /* .burger_img {
+        max-width: 20px;
+    } */
+    .button {
+        padding: 10px 15px;
+        line-height: 14px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 460px) {
+    .box {
+        max-width: 130px;
+    }
+    .box_title{
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .box_text{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .Featured_projects_txtblock{
+        width: 70%;
+    }
+    .title-team{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .txt-team{
+        font-size: 12px;
+        line-height: 15px;
+        /* margin-right: 30px; */
+    }
+    .button_2 {
+        padding: 6px 12px;
+        line-height: 14px;
+    }
+    .teams{
+        max-width: 130px;
+    }
+    .teams-img {
+        /* max-width: 60px; */
+        max-width: 35px;
+    }
+    .sec_low {
+        padding: 0 34px;
+    }
+    .sec_low_button {
+        /* padding: 12px 20px; */
+    }
+    .photo_img {
+        max-width: 45px;
+    }
+    .flex-team {
+        justify-content: space-around;
+    }
+    .chel_img {
+        max-width: 55px;
+    }
+}
+
+@media (max-width: 425px) {
+    .button {
+        /* padding: 5px 15px;
+        line-height: 18px; */
+        padding: 8px 13px;
+        line-height: 18px;
+        font-size: 12px;
+    }
+    .sec_fluid {
+        min-height: 300px;
+    }
+    .Featured_projects_item {
+        width: 100%;
+    }
+    .flex-team {
+        display: block;
+    }
+    .text-team {
+        width: 100%;
+        max-width: 358px;
+        margin-bottom: 20px;
+    }
+    .title-team{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .txt-team{
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .photo_img {
+        max-width: 55px;
+    }
+    .logo_img {
+        max-width: 150px;
+    }
+    .MainScreen h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .new_box_text {
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 220px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .button {
+        padding: 10px 15px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 390px) {
+    /* .logo_img {
+        max-width: 115px;
+    } */
+    .burger {
+        width: 20px;
+        height: 21px;
+    }
+    /* .button {
+        padding: 8px 13px;
+        line-height: 15px;
+    } */
+    .new_box_text {
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 375px) {
+    .logo_img {
+        max-width: 120px;
+    }
+    .burger {
+        width: 22px;
+        height: 23px;
+    }
+    /* .button {
+        font-size: 13px;
+    } */
+    
+    .MainScreen h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
